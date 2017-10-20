@@ -37,7 +37,7 @@ Diese Erwartungen sind nicht dazu da, Dir Dein Leben mies zu machen, sondern um 
 
 Wenn Du ein kompletter Anfänger bist, was Programmieren angeht, oder Du aus welchem Grund auch immer Probleme bei der Installation von Haskell auf Deinem Computer hast, sorge Dich nicht! Komm zur Lerngruppe und wir helfen Dir, zu verstehen, warum es nicht geklappt hat. (Und natürlich helfen wir Dir Haskell auch zu installieren.) Zum Glück brauchst Du für das erste Kapitel nicht mal einen Computer, nur Papier, einen Stift und Geduld. Also mach wenigsten das, auch wenn Du Hilfe bei der Technik brauchst.
 
-###Verhaltensregeln
+### Verhaltensregeln
 
 Mit Deiner Teilnahme an dieser Lerngruppe verpflichtest Du Dich implizit, folgende Verhaltensregeln zu befolgen:
 
@@ -111,7 +111,7 @@ Im [Materialien](resources) Unterverzeichnis diese Repositorys findest Du Folien
 - Kapitel 16 nochmal durchsehen
 - Kapitel 17
 
-**Woche 12. Monden. Wie man Strukturen auf Code anwendet. Abschluss.**
+**Woche 12. Monaden. Wie man Strukturen auf Code anwendet. Abschluss.**
 - Kapitel 17 nochmal durchsehen
 - Kapitel 18
 - Kapitel 19 (ohne Besprechung in der Gruppe)
