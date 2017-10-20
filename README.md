@@ -1,122 +1,124 @@
-# Haskell Study Group
+# Haskell Lern Gruppe
 
-## Guidelines
+## Regelwerk
 
-We will work through [_Haskell Programming from First Principles_](http://haskellbook.com/) (aka the "Haskell Book") by Christopher Allen and Julie Moronuki. The only prerequisites for participating are this book, a computer, and your person. An open mind is also recommended. No prior experience with Haskell, functional programming, or coding in general is required.
+Wir werden das Buch [_Haskell Programming from First Principles_](http://haskellbook.com/) (das "Haskell Book" genannt) von Christopher Allen und Julie Moronuki durcharbeiten. Die einzigen Voraussetzungen für eine Teilnahme sind dieses Buch, ein Computer und Du. Eine aufgeschlossene Haltung ist auch zu empfehlen. Es ist nicht nötig, bereits Erfahrungen mit Haskell, funktionaler Programmierung oder Programmierung allgemein zu haben.
 
-To prepare for your first visit, please do the following:
+Um Dich auf Deinen ersten Besuch vorzubreiten, erledige bitte folgende Punkte:
 
-- **Join the [meetup group](https://www.meetup.com/de-DE/Karlsruhe-Haskell-Lerngruppe)**
-Appointments will be announced here. Depending on how many people show up in the meetup group or on slack, we will start in january 2018 or earlier.
+- **Tritt dem Meetup der [Karlsruhe Haskell Lerngruppe](https://www.meetup.com/de-DE/preview/Karlsruhe-Haskell-Lerngruppe).**
+Termine werden hier angekündigt. Je nachdem, wieviel interesse besteht, könnten wir recht bald anfangen. Spätestens jedoch Januar 2018.
 
-- **Join the [FPChat](http://fpchat-invite.herokuapp.com/) Slack community.**
-All announcements pertaining to this study group will be sent out via Meetup and Slack. On the FPChat Slack, look for the `#karlsruhehaskellstudy` channel.
+- **Tritt der [FPChat](http://fpchat-invite.herokuapp.com/) Slack Gemeinschaft bei.**
+Alle Ankündigungen, die diese Lerngruppe betreffen, werden per Slack oder Meetup verschickt. Such im FPChat Slack nach dem `#haskell-study-group` Kanal.
 
-- **[Purchase](https://gumroad.com/l/haskellbook) your own copy of the book.**
-You will need your own copy on your own machine so you can work with the PDF and your terminal open side-by-side. This book was independently researched, written, and published by two Haskell developers working in their spare time to support education in functional programming. As a member of our strong and supportive community, we know you are too committed to the spirit of pure actions to "borrow" someone else's copy. They typeset it with LaTeX: give them a break!
+- **[Kaufe](https://gumroad.com/l/haskellbook) deine eigene Ausgabe des "Haskell Book".**
+Du wirst Deine eigene Ausgabe auf deinem Rechner brauchen, damit das PDF und ein Terminal nebeneinander öffnen kannst. Dieses Buch wurde von zwei Haskell Entwicklern in ihrer Freizeit recherchiert, geschrieben und herausgegeben, um das Wissen um funktionale Programmierung weiter zu verbreiten. 
+Wir wissen, dass Du Dich, als ein Mitglied einer starken und hilfreichen Gemeinschaft, dem Geist reinen Handelns zu sehr verpflichtet fühlst, als das Du eine Ausgabe des Buches von jemand anders leihen würdest. Sie haben das Buch sogar mit LaTeX gesetzt: honoriere das!
 
-- **Install [Stack](https://docs.haskellstack.org/en/stable/README/), the Haskell project development tool.**
-If you are familiar with package managers like npm, pip, and apt, Stack is similar. You needn't show up already an expert, but do at least [learn the basics](resources/haskell-stack-notes.md). If you want to know everything, though, you could watch [this video](https://www.youtube.com/watch?v=sRonIB8ZStw). The most important thing: whatever you do, _do not install the Haskell Platform_.
+- **Installiere [Stack](https://docs.haskellstack.org/en/stable/README/), das Entwicklungswerkzeug für Haskellprojekte.**
+Wenn Du mit andere Packetmanagern, wie npm, pip oder apt vertraut bist, wirst Du merken, dass Stack ganz ähnlich ist. Du musst kein Experte in Stack sein, um zu den Treffen zu erscheinen, aber versuche wenigstens [die Grundlagen zu lernen](resources/haskell-stack-notes.md). Wenn Du schon alles über Stack wissen willst, dann könntest [dieses Video](https://www.youtube.com/watch?v=sRonIB8ZStw) anschauen. Das Allerwichtigste ist, egal was Du tust, _installiere nicht die "Haskell Platform"_.
 
-- **Set up a project environment for your practice code, and familiarize yourself with GHC and GHCi.**
-You don't need to do much more than create a directory for your code and make sure you know how to run the GHC compiler on your source files and GHCi when you need a REPL. I like to keep separate subdirectories for the individual chapters, but you can do whatever you find most convenient. Do not expect WiFi to be available at meeting locations, though every effort will be made to ensure its availability.
+- **Richte ein Projekt ein, um die Übungen erledigen zu können und mach Dich mit GHC und GHCi vertraut.**
+Mehr als ein Verzeichnis für deine Quellen anzulegen und sicher zu gehen, dass Du weißt wie man mit GHC eine Quelle übersetzt oder wie man GHCi startet, um eine REPL zu verwenden, ist nicht notwendig. Ich verwende gerne verschiedene Unterverzeichnisse für die einzelnen Kapitel, aber mach einfach, was Du am bequemsten findest. Wir unternehmen alles, damit es bei unserern Treffen WLAN gibt, aber erwarte nicht, dass es funktioniert.
 
-### Expectations
+### Erwartungen
 
-Participants in the study group will be expected to model and reinforce a culture of accountability. This entails everyone abiding by the norms of a supportive and rigorous classroom environment. Each week, you should complete the following tasks:
+Von Teilnehmern der Lerngruppe wird erwartet, Verantwortung für ihren eignen Lernfortschritt zu übernehmen. Das bedeutet, dass jeder die Regeln einer unterstützenden und gründlichen Lernatmosphäre einhält. Jede Woche solltest Du die folgenden Aufgaben erledigt haben:
 
-- Do all the reading.
-- Type in all the code.
-- Attempt all the exercises.
-- Meet with a study partner to discuss your work.
-- Attend the group meeting.
+- Den entsprechenden Teil des Buches lesen.
+- All den Code eintippen.
+- Alle Aufgaben versuchen.
+- Dich mit einem Lernpartner treffen, um Deine Arbeit zu diskutieren.
+- Das Gruppentreffen besuchen.
 
-These expectations are not meant to make your life miserable but to provide a framework for your success. If you actually want to learn Haskell, consistency is the key—as with anything else. Since we'll be learning Haskell together in this group, it is essential that you work through each chapter on your own first so that you come to each group meeting prepared, knowing what you need help with and what you understand well enough to teach others. If you get stuck on a problem, keep moving, but do not just skip the exercises entirely.
-#### For the sake of emphasis: _do not skip the exercises!_
+Diese Erwartungen sind nicht dazu da, Dir Dein Leben mies zu machen, sondern um Dir einen Rahmen für Deinen Erfolg zu geben. Wenn Du wirklich Haskell lernen willst: Konsequenz ist der Schlüssel dazu -- wie bei allem. Da wir Haskell in dieser Gruppe zusammen lernen werden, ist es wichtig, dass Du zuerst jedes Kapitel für Dich selbst durcharbeitest, sodass Du vorbreitet und in dem Wissen, wo Du Hilfe brauchst und was Du gut genug verstanden hast, um es anderen beizubringen, zum Gruppentreffen kommst. Wenn Du bei einer Übungsaufgabe stecken bleibst, geh zur Nächsten über und überspringe nicht einfach alle Aufgaben.
+### Nur um sicher zu gehen: _Überspringe die Übungsaufgaben nicht!_
 
-If you are a complete beginner to programming or for whatever reason have trouble installing Haskell on your computer, don't worry about it! Come to the study group, and we'll help you figure it out. Fortunately, you don't even need a computer to work through Chapter 1—just pen, paper, and patience. So make sure you at least do that much, even if you require tech support.
+Wenn Du ein kompletter Anfänger bist, was Programmieren angeht, oder Du aus welchem Grund auch immer Probleme bei der Installation von Haskell auf Deinem Computer hast, sorge Dich nicht! Komm zur Lerngruppe und wir helfen Dir, zu verstehen, warum es nicht geklappt hat. (Und natürlich helfen wir Dir Haskell auch zu installieren.) Zum Glück brauchst Du für das erste Kapitel nicht mal einen Computer, nur Papier, einen Stift und Geduld. Also mach wenigsten das, auch wenn Du Hilfe bei der Technik brauchst.
 
-### Conduct of code
+###Verhaltensregeln
 
-By participating in this study group, you implicitly agree to conduct your coding as follows:
+Mit Deiner Teilnahme an dieser Lerngruppe verpflichtest Du Dich implizit, folgende Verhaltensregeln zu befolgen:
 
-You will purchase your own copy of the Haskell Book. Anyone suspected of using an illegal copy will be removed from the group immediately.
+Du wirst Deine eigene Ausgabe des "Haskell Book" kaufen. Jeder der eine illegale Kopie verwendet, darf an der Lerngruppe nicht mehr teilnehmen.
 
-Each week, prior to the group meeting, you will complete the assigned reading and attempt to complete the coding exercises to the best of your ability. If you do not make a genuine effort to complete your work, for whatever reason, you will not be permitted to join the group discussion that week. Participants who fail to complete their assignments twice in a row or three times total, or who are otherwise not making a good faith effort to keep up with the course schedule, may be asked to leave the group. If you find yourself struggling with the exercises, you should seek help at the meetings, from your study partner, or online.
+Jede Woche, vor jedem Gruppentreffen, wirst Du den entsprechenden Teil des Buches lesen und versuchen alle Übungsaufgaben nach bestem Wissen und Gewissen zu lösen. Wenn Du Dich nicht ehrlich bemüht hast, Deine Arbeit zu erledigen, aus welchem Grund auch immer, ist es Dir nicht erlaubt am Gruppentreffen für diese Woche teilzunehmen. Jeder der zweimal oder dreimal in Folge seinen Kram nicht erledigt hat oder der sich nicht glaubhaft bemüht mit dem Lernplan der Gruppe mitzuhalten, wird gebeten werden, die Lerngruppe zu verlassen. Wenn Du Probleme mit den Übungsaufgaben hast, solltest Du bei den Treffen oder von Deinem Lernpartnern oder online Hilfe erbitten.
 
-You will make every effort to attend the weekly group meetings. Space is limited, so if you cannot commit to attending regularly, do not sign up. Participants who consistently miss meetings or RSVP without showing up will be removed from the group. If you cannot make it to a meeting, withdraw your RSVP as soon as possible.
+Du wirst alles Versuchen, um die wöchentlichen Lerngruppentreffen zu besuchen. Die Anzahl der Plätze ist begrenzt, also wenn Du nicht regelmäßig kommen kannst, dann nimm nicht teil. Teilnehmer, die regelmäßig Gruppentreffen verpassen, oder die Einladung zum Meetup bestätigen aber nicht erscheinen, werden ausgeschlossen. Wenn Du es nicht schaffst, ein Gruppentreffen zu besuchen, solltest Du so schnell wie möglich die Bestätigung der Einladung widerrufen.
 
-In addition to the above, all study group participants are expected to make their best effort at being decent human beings. Participants whose behavior strays too far or too often beyond the reasonable boundaries of respect, kindness, and collegiality may be removed from the group at the discretion of the organizer.
+Zusätzlich zu all dem, wird von Teilnehmern erwartet, dass sie ihr bestes geben, anständig und respektvoll miteinander umzugehen. Wessen Verhalten sich zu oft zu weit von den akzeptablen Grenzen des respektvollen, freundlichen und kollegialen Umgangs miteinander entfernt, wird ausgeschlossen.
 
-The [Recurse Center](https://www.recurse.com) has a useful set of [social rules](https://www.recurse.com/manual#sub-sec-social-rules) that you should consider in effect for our meetings, too.
+Das [Recurse Center](https://www.recurse.com) hat eine Sammlung brauchbarer [sozialer Regeln](https://www.recurse.com/manual#sub-sec-social-rules), die auch bei unseren Treffen gelten.
 
-### Format
+### Vorgehensweise
 
-We will work through chapters 1–18 of the Haskell Book over the course of 12 weeks, meeting for about 2 hours each week. We may extend the meeting schedule to cover subsequent chapters if there is enthusiasm for doing so and the organizer is available.
+Wir werden in 12 Wochen die ersten 18 Kapitel des "Haskell Book" durcharbeiten und uns jede Woche für ein bis zwei Stunden treffen. Wir könnten den Plan verlängern, um weitere Kapitel durchzuarbeiten, wenn das gewünscht ist und der Organisator verfügbar ist.
 
-**This is not a class**, however, so do not come expecting a lecture. Instead, you will have the opportunity to review your work and to discuss concepts and exercises that gave you difficulty when working through the book on your own.
+**Das ist kein Kurs**, also erwarte keine Vorlesung. Vielmehr wirst Du Gelegenheit haben, deine Arbeit zu überprüfen und über Konzepte und Übungsaufgaben zu diskutieren, mit denen Du Schwierigkeiten hattest, als Du Dich allein durch das Buch gearbeitet hast.
 
-You are encouraged to hew as closely to this regular, weekly schedule as you are able so as to maintain your momentum. That said, if life gets in the way, so be it: but do your best to catch up, and avoid skipping any material as each chapter builds on the last. We can always discuss exercises on Slack, but please refrain from posting your solutions publicly (including on GitHub).
+Wir ermutigen Dich, Dich so gut es geht an den Wochenplan zu halten, um Dir Deinen Schwung zu bewahren. Abgesehen davon, wenns mal schief läuft, ist es eben so: tue Dein bestes um aufzuholen und vermeide Stoff zu überspringen, da jedes Kapitel auf dem nächsten aufbaut. Jederzeit können wir Aufgaben im Slack diskutieren, aber bitte poste Deine Lösungen nicht online, auch nicht auf GitHub.
 
-### Signing up
+### Anmeldung
 
-All meetings will be announced on Meetup and Slack. You must RSVP to attend each meeting separately, as space is at a premium. If you cannot attend a meeting because it is full, please continue to work on your own, and come to a future meeting. Do not RSVP if you cannot attend. No-shows will not be allowed to attend subsequent meetings.
+Alle Treffen werden per Meetup und Slack angekündigt. Du musst zu jedem Treffen einzeln zusagen, da die Plätze begrenzt sind. Wenn Du ein Treffen nicht besuchen kannst, da es voll ist, arbeite auf eigene Faust weiter und komm zum nächsten Treffen. Sage nicht zu, wenn Du nicht kommen kannst. Wer zusagt und nicht erscheint, kann ausgeschlossen werden!
 
-### Slides and other resources
+### Folien und andere Materialien
 
-See the [resources](resources) sub-directory in this repo for presentation slides, bonus exercises, and other materials used during study session meetings. If you have something pertinent to add, please submit a pull request.
+Im [Materialien](resources) Unterverzeichnis diese Repositorys findest Du Folien, Zusatzaufgaben und andere Materialien, die wir während der Treffen verwenden können. Wenn Du etwas hinzufügen willst, mach einen pull request.
 
-### Schedule
+### Plan
 
-**Week 1. Introduction. Lambda calculus.**
-- Haskell Book, Chapter 1
+**Woche 1. Einführung. Lambdakalkül.**
+- Haskell Book, Kapitel 1
 
-**Week 2. Getting started with Haskell.**
-- Chapters 2 and 3
+**Woche 2. Einstieg in Haskell.**
+- Kapitel 2 und 3
 
-**Week 3. Basic datatypes.**
-- Review chapters 2 and 3
-- Chapters 4 and 5
+**Woche 3, Grundlegende Datentypen.**
+- Kapitel 2 und 3 nochmal durchsehen
+- Kapitel 4 und 5
 
-**Week 4. Types and Typeclasses.**
-- Review chapters 4 and 5
-- Chapter 6
+**Woche 4. Typen und Typklassen.**
+- Kapitel 4 und 5 nochmal durchsehen
+- Kapitel 6
 
-**Week 5. Functional patterns. Working with recursion.**
-- Review chapter 6
-- Chapters 7 and 8
+**Woche 5. Funktionale Muster. Arbeiten mit Rekursion.**
+- Kapitel 6 nochmal durchsehen
+- Kapitel 7 und 8
 
-**Week 6. Lists and folding lists.**
-- Review chapters 7 and 8
-- Chapters 9 and 10
+**Woche 6. Listen und Faltungen von Listen.**
+- Kapitel 7 und 8 nochmal durchsehen
+- Kapitel 9 und 10
 
-**Week 7. Algebraic datatypes.**
-- Review chapters 9 and 10
-- Chapters 11 and 12
+**Woche 7. Algebraische Datentypen.**
+- Kapitel 9 und 10 nochmal durchsehen
+- Kapitel 11 und 12
 
-**Week 8. Midpoint review. Testing with QuickCheck.**
-- Review chapters 2-12
-- Read and complete Chapter 13 on your own
-- Chapter 14
+**Woche 8. Rückblick zur Halbzeit. Testen mit QuickCheck.**
+- Kapitel 2 bis 12 nochmal durchsehen
+- Kapitel 13 (ohne Besprechung in der Gruppe)
+- Kapitel 14
 
-**Week 9. Monoid and Semigroup.**
-- Chapter 15
+**Woche 9. Monoide und Halbgruppen.**
+- Kapitel 15
 
-**Week 10. Functor.**
-- Review Chapter 15
-- Chapter 16
+**Woche 10. Funktoren.**
+- Kapitel 15 nochmal durchsehen
+- Kapitel 16
 
-**Week 11. Applicative.**
-- Review chapter 16
-- Chapter 17
+**Woche 11. Applicative.**
+- Kapitel 16 nochmal durchsehen
+- Kapitel 17
 
-**Week 12. Monad. How to apply structure to your code. Conclusion.**
-- Review chapter 17
-- Chapter 18
-- Read Chapter 19 on your own
-- General review and look ahead
+**Woche 12. Monden. Wie man Strukturen auf Code anwendet. Abschluss.**
+- Kapitel 17 nochmal durchsehen
+- Kapitel 18
+- Kapitel 19 (ohne Besprechung in der Gruppe)
+- Allgemeiner Rückblick und Ausblick
 
-Meeting days, times, and locations may vary from week to week depending on the availability of space. If you can help with hosting future meetings, please contact me!
+Die Termine und Veranstaltungsorte der Treffen können sich von Woche zu Woche ändern,
+je nachdem wo und wann wir einen Veranstaltungsort finden können. Wenn Du dabei helfen
+kannst einen Veranstaltungsort zu finden, komm bitte auf mich zu.
 
-For details of specific meetings, see the Meetup page.
-
+Für Details zu einem speziellen Treffen, schau auf der Meetup Seite nach.
