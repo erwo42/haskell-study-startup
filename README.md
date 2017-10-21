@@ -1,4 +1,4 @@
-# Haskell Lern Gruppe
+# Haskell Lerngruppe
 
 ## Regelwerk
 
