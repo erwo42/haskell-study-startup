@@ -10,7 +10,7 @@ Um Dich auf Deinen ersten Besuch vorzubreiten, erledige bitte folgende Punkte:
 Termine werden hier angekündigt. Je nachdem, wieviel interesse besteht, könnten wir recht bald anfangen. Spätestens jedoch Januar 2018.
 
 - **Tritt der [FPChat](http://fpchat-invite.herokuapp.com/) Slack Gemeinschaft bei.**
-Alle Ankündigungen, die diese Lerngruppe betreffen, werden per Slack oder Meetup verschickt. Such im FPChat Slack nach dem `#haskell-study-group` Kanal.
+Alle Ankündigungen, die diese Lerngruppe betreffen, werden per Slack oder Meetup verschickt. Such im FPChat Slack nach dem `#karlsruhehaskellstudy` Kanal.
 
 - **[Kaufe](https://gumroad.com/l/haskellbook) deine eigene Ausgabe des "Haskell Book".**
 Du wirst Deine eigene Ausgabe auf deinem Rechner brauchen, damit das PDF und ein Terminal nebeneinander öffnen kannst. Dieses Buch wurde von zwei Haskell Entwicklern in ihrer Freizeit recherchiert, geschrieben und herausgegeben, um das Wissen um funktionale Programmierung weiter zu verbreiten. 
