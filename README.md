@@ -57,6 +57,8 @@ Wir werden in 12 Wochen die ersten 18 Kapitel des "Haskell Book" durcharbeiten u
 
 **Das ist kein Kurs**, also erwarte keine Vorlesung. Vielmehr wirst Du Gelegenheit haben, deine Arbeit zu überprüfen und über Konzepte und Übungsaufgaben zu diskutieren, mit denen Du Schwierigkeiten hattest, als Du Dich allein durch das Buch gearbeitet hast.
 
+Hier der Ablauf eines typischen Treffens: [Agenda](agenda.md)
+
 Wir ermutigen Dich, Dich so gut es geht an den Wochenplan zu halten, um Dir Deinen Schwung zu bewahren. Abgesehen davon, wenns mal schief läuft, ist es eben so: tue Dein bestes um aufzuholen und vermeide Stoff zu überspringen, da jedes Kapitel auf dem nächsten aufbaut. Jederzeit können wir Aufgaben im Slack diskutieren, aber bitte poste Deine Lösungen nicht online, auch nicht auf GitHub.
 
 ### Anmeldung
