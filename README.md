@@ -92,32 +92,32 @@ Im [Materialien](resources) Unterverzeichnis diese Repositorys findest Du Folien
 **Woche 6. Listen und Faltungen von Listen.**
 - Kapitel 7 und 8 nochmal durchsehen
 - Kapitel 9 und 10
+- Wir haben hier bereits Kapitel 11 und 12 eingeschoben,
+  sodass wir die restlichen Termine aufrücken können.
 
-**Woche 7. Algebraische Datentypen.**
-- Kapitel 9 und 10 nochmal durchsehen
-- Kapitel 11 und 12
-
-**Woche 8. Rückblick zur Halbzeit. Testen mit QuickCheck.**
+**Woche 7. Rückblick zur Halbzeit. Testen mit QuickCheck.**
 - Kapitel 2 bis 12 nochmal durchsehen
 - Kapitel 13 (ohne Besprechung in der Gruppe)
 - Kapitel 14
 
-**Woche 9. Monoide und Halbgruppen.**
+**Woche 8. Monoide und Halbgruppen.**
 - Kapitel 15
 
-**Woche 10. Funktoren.**
+**Woche 9. Funktoren.**
 - Kapitel 15 nochmal durchsehen
 - Kapitel 16
 
-**Woche 11. Applicative.**
+**Woche 10. Applicative.**
 - Kapitel 16 nochmal durchsehen
 - Kapitel 17
 
-**Woche 12. Monaden. Wie man Strukturen auf Code anwendet. Abschluss.**
+**Woche 11. Monaden. Wie man Strukturen auf Code anwendet.**
 - Kapitel 17 nochmal durchsehen
 - Kapitel 18
-- Kapitel 19 (ohne Besprechung in der Gruppe)
+- Kapitel 19 (ohne Besprechung in der Gruppe**
 - Allgemeiner Rückblick und Ausblick
+
+**Woche 12. Noch offen, Themenvorschläge sind willkommen!**
 
 Die Termine und Veranstaltungsorte der Treffen können sich von Woche zu Woche ändern,
 je nachdem wo und wann wir einen Veranstaltungsort finden können. Wenn Du dabei helfen
