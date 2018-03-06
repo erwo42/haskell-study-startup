@@ -22,10 +22,10 @@ werden, die Aufgabe zu lösen.
 ## Weitere mögliche Themen/Vorschläge
 
 1. parser combinators
-  * [_Haskell Programming from First Principles_](http://haskellbook.com/) verwendet hier [trifecta](https://www.stackage.org/lts-10.8/package/trifecta-1.7.1.1) was leider nicht so eine gute Dokumentation hat.
-  * [megaparsec](https://www.stackage.org/lts-10.8/package/megaparsec-6.3.0) scheint gerade das Mittel der Wahl zu sein (wurde im IRC (freenode, #haskell) und in [FPChat](http://fpchat-invite.herokuapp.com/) empfohlen).
-  * [attoparsec](https://www.stackage.org/lts-10.8/package/attoparsec-0.13.2.2) wird wohl verwendet, um binäre Protokolle zu parsen und soll im Vergleich mit die beste Performance (aber die schlechtesten Fehlermeldungen) bieten.
-  * Ein Teilnehmer (F.) hat angeboten, wenn wir dieses Thema anhand einer konkreten Problemstellung behandeln, dass er im Vergleich dazu einen Parsergenerator verwenden würde und uns das vorführen würde, damit wir einen Vergleich haben. Hier geht es darum, für das entsprechende Format eine Grammatik zu formulieren und mit den generierten Parser mit dem individuellen Code irgendwie zu erweitern.
+    * [_Haskell Programming from First Principles_](http://haskellbook.com/) verwendet hier [trifecta](https://www.stackage.org/lts-10.8/package/trifecta-1.7.1.1) was leider nicht so eine gute Dokumentation hat.
+    * [megaparsec](https://www.stackage.org/lts-10.8/package/megaparsec-6.3.0) scheint gerade das Mittel der Wahl zu sein (wurde im IRC (freenode, #haskell) und in [FPChat](http://fpchat-invite.herokuapp.com/) empfohlen).
+    * [attoparsec](https://www.stackage.org/lts-10.8/package/attoparsec-0.13.2.2) wird wohl verwendet, um binäre Protokolle zu parsen und soll im Vergleich mit die beste Performance (aber die schlechtesten Fehlermeldungen) bieten.
+    * Ein Teilnehmer (F.) hat angeboten, wenn wir dieses Thema anhand einer konkreten Problemstellung behandeln, dass er im Vergleich dazu einen Parsergenerator verwenden würde und uns das vorführen würde, damit wir einen Vergleich haben. Hier geht es darum, für das entsprechende Format eine Grammatik zu formulieren und mit den generierten Parser mit dem individuellen Code irgendwie zu erweitern.
 
 1. Vortrag: [Dino Rush](https://github.com/jxv/dino-rush)
 Einer arbeitet sich in dieses Projekt ein und ermittelt Teile/Prinzipien, die zur Vorstellung in einem Vortrag vor den anderen geeignet wären. Damit würden wir Einblick in ein reales Projekt gewinnen. Vielleicht kann man hier sehen, wie Architektur im Rahmen funktionaler Programmierung funktionieren kann.
