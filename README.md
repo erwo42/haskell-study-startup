@@ -160,6 +160,6 @@ werden, die Aufgabe zu lösen.
 * [schema2class](https://github.com/leiser1960/schema2class)
 * [Testdaten](solutions/schema2class-testdata)
 
-####
+#### Lösungen
 
 * [schema2class mit Data.Sequence](solutions/sequence.hs) wie es an jedem Abend entstanden ist, ohne verschönernde Nacharbeiten.
