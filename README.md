@@ -1,23 +1,13 @@
 # Haskell Lerngruppe
 
-## Unser Plan für das nächste Treffen am 19.3.2018
+## Thema für das nächste Treffen am 9.4.2018
 
-Wir wollen am 19.3.2018 ein Coding Dojo veranstalten. Um unsere Kenntnisse im Haskell Ökosystem
-weiter auszubauen, ist der Plan, dass sich jeder der Teilnehmer eine der üblichen Containerbibliotheken
+Wir werden die Kapitel 22 und 23 von [_Haskell Programming from First Principles_](http://haskellbook.com/) besprechen, diese sollten also
+vorher durchgearbeitet werden.
 
-1. [Map](https://www.stackage.org/haddock/lts-10.8/containers-0.5.10.2/Data-Map.html)
-1. [Sequence](https://www.stackage.org/haddock/lts-10.8/containers-0.5.10.2/Data-Sequence.html)
-1. [Set](https://www.stackage.org/haddock/lts-10.8/containers-0.5.10.2/Data-Set.html)
-1. [Vector](https://www.stackage.org/haddock/lts-10.8/vector-0.12.0.1/Data-Vector.html)
-
-anschaut und versucht diese Bibliothek bei der Lösung der Aufgabe im Coding Dojo zu verwenden.
-
-Wir werden uns treffen und nach Bekanntgabe der Aufgabe, was erst an dem Abend stattfinden
-wird, etwa 90 Minuten arbeiten. Danach führt jeder/jede Gruppe vor, was sie erarbeitet hat
-und demonstriert anhand dessen, die Bibliothek, für die sie sich entschieden haben.
-
-Es ist klar, dass je nach Aufgabe, manche Bibliotheken gut oder weniger gut geeignet sein
-werden, die Aufgabe zu lösen.
+Danach wird einer von uns einen kurzen Vortrag darüber halten, was "monad transformer" sind und wie man die Varianten `StateT` und `ReaderT`
+verwenden kann. Hierzu wird eine kleine Aufgabe gestellt, die jeder dann versuchen sollte zu lösen. Als nächstes schauen wir uns an, wie
+man `ReaderT` und `StateT` selbst implementieren könnte, auch das wollen wir dann in einer kleinen Aufgabe praktisch durchführen.
 
 ## Weitere mögliche Themen/Vorschläge
 
@@ -143,3 +133,33 @@ Im [Materialien](resources) Unterverzeichnis diese Repositorys findest Du Folien
 - Allgemeiner Rückblick und Ausblick
 
 **Woche 12. Noch offen, Themenvorschläge sind willkommen!**
+
+### Das Treffen am 19.3.2018
+
+#### Ursprüngliche Ankündigung
+
+Wir wollen am 19.3.2018 ein Coding Dojo veranstalten. Um unsere Kenntnisse im Haskell Ökosystem
+weiter auszubauen, ist der Plan, dass sich jeder der Teilnehmer eine der üblichen Containerbibliotheken
+
+1. [Map](https://www.stackage.org/haddock/lts-10.8/containers-0.5.10.2/Data-Map.html)
+1. [Sequence](https://www.stackage.org/haddock/lts-10.8/containers-0.5.10.2/Data-Sequence.html)
+1. [Set](https://www.stackage.org/haddock/lts-10.8/containers-0.5.10.2/Data-Set.html)
+1. [Vector](https://www.stackage.org/haddock/lts-10.8/vector-0.12.0.1/Data-Vector.html)
+
+anschaut und versucht diese Bibliothek bei der Lösung der Aufgabe im Coding Dojo zu verwenden.
+
+Wir werden uns treffen und nach Bekanntgabe der Aufgabe, was erst an dem Abend stattfinden
+wird, etwa 90 Minuten arbeiten. Danach führt jeder/jede Gruppe vor, was sie erarbeitet hat
+und demonstriert anhand dessen, die Bibliothek, für die sie sich entschieden haben.
+
+Es ist klar, dass je nach Aufgabe, manche Bibliotheken gut oder weniger gut geeignet sein
+werden, die Aufgabe zu lösen.
+
+#### Die Aufgabe, die wir lösen mussten
+
+* [schema2class](https://github.com/leiser1960/schema2class)
+* [Testdaten](solutions/schema2class-testdata)
+
+####
+
+* [schema2class mit Data.Sequence](solutions/sequence.hs) wie es an jedem Abend entstanden ist, ohne verschönernde Nacharbeiten.
