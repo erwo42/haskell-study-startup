@@ -163,3 +163,4 @@ werden, die Aufgabe zu lösen.
 #### Lösungen
 
 * [schema2class mit Data.Sequence](solutions/sequence.hs) wie es an jedem Abend entstanden ist, ohne verschönernde Nacharbeiten.
+* [schema2class mit Data.Set](solutions/set.hs)
