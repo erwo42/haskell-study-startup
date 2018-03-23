@@ -164,3 +164,4 @@ werden, die Aufgabe zu lösen.
 
 * [schema2class mit Data.Sequence](solutions/sequence.hs) wie es an jedem Abend entstanden ist, ohne verschönernde Nacharbeiten.
 * [schema2class mit Data.Set](solutions/set.hs)
+* [schema2class mit Data.HashMap und Data.HashSet](solutions/hash.hs)
