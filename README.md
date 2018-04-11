@@ -1,13 +1,12 @@
 # Haskell Lerngruppe
 
-## Thema für das nächste Treffen am 9.4.2018
+## Thema für das nächste Treffen (voraussichtlich 7. oder 14. Mai)
 
-Wir werden die Kapitel 22 und 23 von [_Haskell Programming from First Principles_](http://haskellbook.com/) besprechen, diese sollten also
-vorher durchgearbeitet werden.
+Ein Teilnehmer hat sich bereit erklärt, eine "Functional Pearl" vorzutragen und wird noch
+bekannt geben welche. Geplant ist, dass man sich mit der Problemstellung (ohne die Pearl selber
+nachzuschlagen) beschäftigen kann und am Termin selbst trägt der Teilnehmer dann die "Functional
+Pearl" vor, wie sie veröffentlicht wurde.
 
-Danach wird einer von uns einen kurzen Vortrag darüber halten, was "monad transformer" sind und wie man die Varianten `StateT` und `ReaderT`
-verwenden kann. Hierzu wird eine kleine Aufgabe gestellt, die jeder dann versuchen sollte zu lösen. Als nächstes schauen wir uns an, wie
-man `ReaderT` und `StateT` selbst implementieren könnte, auch das wollen wir dann in einer kleinen Aufgabe praktisch durchführen.
 
 ## Weitere mögliche Themen/Vorschläge
 
@@ -165,3 +164,17 @@ werden, die Aufgabe zu lösen.
 * [schema2class mit Data.Sequence](solutions/sequence.hs) wie es an jedem Abend entstanden ist, ohne verschönernde Nacharbeiten.
 * [schema2class mit Data.Set](solutions/set.hs)
 * [schema2class mit Data.HashMap und Data.HashSet](solutions/hash.hs)
+
+## Das Treffen am 9.4.2018
+
+Wir werden die Kapitel 22 und 23 von [_Haskell Programming from First Principles_](http://haskellbook.com/) besprechen, diese sollten also
+vorher durchgearbeitet werden.
+
+Danach wird einer von uns einen kurzen Vortrag darüber halten, was "monad transformer" sind und wie man die Varianten `StateT` und `ReaderT`
+verwenden kann. Hierzu wird eine kleine Aufgabe gestellt, die jeder dann versuchen sollte zu lösen. Als nächstes schauen wir uns an, wie
+man `ReaderT` und `StateT` selbst implementieren könnte, auch das wollen wir dann in einer kleinen Aufgabe praktisch durchführen.
+
+Beim Treffen wurde folgender Code vorgetragen, die Teilnehmer sollten nach der Vorstellung des `StateT` den `ReaderT` vor Ort selbst implementieren,
+was den meisten auch gelang.
+
+[eigenbau von StateT und ReaderT](solutions/state.hs)
