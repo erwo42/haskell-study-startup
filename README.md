@@ -1,12 +1,15 @@
 # Haskell Lerngruppe
 
-## Thema für das nächste Treffen (voraussichtlich 7. oder 14. Mai)
+## Functional Pearl 14. Mai
 
-Ein Teilnehmer hat sich bereit erklärt, eine "Functional Pearl" vorzutragen und wird noch
-bekannt geben welche. Geplant ist, dass man sich mit der Problemstellung (ohne die Pearl selber
-nachzuschlagen) beschäftigen kann und am Termin selbst trägt der Teilnehmer dann die "Functional
-Pearl" vor, wie sie veröffentlicht wurde.
+https://docs.google.com/document/d/1L7z8sTSXYLjaHH8kzamPl626uIbl2dJ1FCS0x-PP9l4/edit
 
+Jeder Teilnehmer sollte versuchen, eine Lösung der oben verlinkten Aufgabe zu erstellen,
+damit wir die Lösungen am 14. Mai vergleichen können.
+
+Ausserdem wird eine Musterlösung vorgestellt, wie sie bei den Functional Pearls verwendet
+wurde. Es bietet sich also an, diese noch nicht zu recherchieren, damit man noch einen
+AHA-Moment erleben kann.
 
 ## Weitere mögliche Themen/Vorschläge
 
